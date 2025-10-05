@@ -1,0 +1,7 @@
+METAMASK_API_KEY=1884ee7c3e094bfeabb82e404eb90ec3
+// https://mainnet.infura.io/v3/1884ee7c3e094bfeabb82e404eb90ec3
+curl --url https://mainnet.infura.io/v3/1884ee7c3e094bfeabb82e404eb90ec3 \
+  -X POST \
+  -H "Content-Type: application/json" \
+  -d '{"jsonrpc":"2.0","method":"eth_blockNumber","params":[],"id":1}'
+  https://gas.api.infura.io/v3/1884ee7c3e094bfeabb82e404eb90ec3
