@@ -9,7 +9,7 @@ export function Header() {
           className="text-blue-500 hover:underline"
           activeProps={{ className: 'font-bold' }}
         >
-          Home
+            init ddapp
         </Link>
       </nav>
     </header>
